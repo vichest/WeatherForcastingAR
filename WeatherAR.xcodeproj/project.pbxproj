@@ -14,6 +14,35 @@
 		0310498A2A80029C00288D4F /* WeatherARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031049892A80029C00288D4F /* WeatherARTests.swift */; };
 		031049942A80029C00288D4F /* WeatherARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031049932A80029C00288D4F /* WeatherARUITests.swift */; };
 		031049962A80029C00288D4F /* WeatherARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031049952A80029C00288D4F /* WeatherARUITestsLaunchTests.swift */; };
+		037615812A85647C00A98DD5 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037615802A85647C00A98DD5 /* ARViewController.swift */; };
+		03FC1CC72A88A59500B4A166 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CC62A88A59500B4A166 /* WeatherData.swift */; };
+		03FC1CC82A88A59500B4A166 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CC62A88A59500B4A166 /* WeatherData.swift */; };
+		03FC1CC92A88A59500B4A166 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CC62A88A59500B4A166 /* WeatherData.swift */; };
+		03FC1CCC2A88A9C100B4A166 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CCB2A88A9C100B4A166 /* WeatherModel.swift */; };
+		03FC1CCD2A88A9C100B4A166 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CCB2A88A9C100B4A166 /* WeatherModel.swift */; };
+		03FC1CCE2A88A9C100B4A166 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CCB2A88A9C100B4A166 /* WeatherModel.swift */; };
+		03FC1CCF2A88AC6B00B4A166 /* WeatherNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CC22A88A58500B4A166 /* WeatherNetworkManager.swift */; };
+		03FC1CD62A89435300B4A166 /* WeatherARModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CD52A89435300B4A166 /* WeatherARModelManager.swift */; };
+		03FC1CD72A89435300B4A166 /* WeatherARModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CD52A89435300B4A166 /* WeatherARModelManager.swift */; };
+		03FC1CD82A89435300B4A166 /* WeatherARModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC1CD52A89435300B4A166 /* WeatherARModelManager.swift */; };
+		03FC1CDB2A89579100B4A166 /* fog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CDA2A89579100B4A166 /* fog.mp4 */; };
+		03FC1CDC2A89579100B4A166 /* fog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CDA2A89579100B4A166 /* fog.mp4 */; };
+		03FC1CDD2A89579100B4A166 /* fog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CDA2A89579100B4A166 /* fog.mp4 */; };
+		03FC1CDF2A8957AF00B4A166 /* normal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CDE2A8957AF00B4A166 /* normal.mp4 */; };
+		03FC1CE02A8957AF00B4A166 /* normal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CDE2A8957AF00B4A166 /* normal.mp4 */; };
+		03FC1CE12A8957AF00B4A166 /* normal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CDE2A8957AF00B4A166 /* normal.mp4 */; };
+		03FC1CE32A8957D700B4A166 /* rainy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CE22A8957D700B4A166 /* rainy.mp4 */; };
+		03FC1CE42A8957D700B4A166 /* rainy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CE22A8957D700B4A166 /* rainy.mp4 */; };
+		03FC1CE52A8957D700B4A166 /* rainy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CE22A8957D700B4A166 /* rainy.mp4 */; };
+		03FC1CE72A8957EF00B4A166 /* snow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CE62A8957EF00B4A166 /* snow.mp4 */; };
+		03FC1CE82A8957EF00B4A166 /* snow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CE62A8957EF00B4A166 /* snow.mp4 */; };
+		03FC1CE92A8957EF00B4A166 /* snow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CE62A8957EF00B4A166 /* snow.mp4 */; };
+		03FC1CEB2A8957FA00B4A166 /* sunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CEA2A8957FA00B4A166 /* sunny.mp4 */; };
+		03FC1CEC2A8957FA00B4A166 /* sunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CEA2A8957FA00B4A166 /* sunny.mp4 */; };
+		03FC1CED2A8957FA00B4A166 /* sunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CEA2A8957FA00B4A166 /* sunny.mp4 */; };
+		03FC1CEF2A89580300B4A166 /* thunder.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CEE2A89580300B4A166 /* thunder.mp4 */; };
+		03FC1CF02A89580300B4A166 /* thunder.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CEE2A89580300B4A166 /* thunder.mp4 */; };
+		03FC1CF12A89580300B4A166 /* thunder.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03FC1CEE2A89580300B4A166 /* thunder.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +73,18 @@
 		0310498F2A80029C00288D4F /* WeatherARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031049932A80029C00288D4F /* WeatherARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherARUITests.swift; sourceTree = "<group>"; };
 		031049952A80029C00288D4F /* WeatherARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		037615802A85647C00A98DD5 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		03F568512A8414230056395D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FC1CC22A88A58500B4A166 /* WeatherNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherNetworkManager.swift; sourceTree = "<group>"; };
+		03FC1CC62A88A59500B4A166 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		03FC1CCB2A88A9C100B4A166 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		03FC1CD52A89435300B4A166 /* WeatherARModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherARModelManager.swift; sourceTree = "<group>"; };
+		03FC1CDA2A89579100B4A166 /* fog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fog.mp4; sourceTree = "<group>"; };
+		03FC1CDE2A8957AF00B4A166 /* normal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = normal.mp4; sourceTree = "<group>"; };
+		03FC1CE22A8957D700B4A166 /* rainy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainy.mp4; sourceTree = "<group>"; };
+		03FC1CE62A8957EF00B4A166 /* snow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = snow.mp4; sourceTree = "<group>"; };
+		03FC1CEA2A8957FA00B4A166 /* sunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunny.mp4; sourceTree = "<group>"; };
+		03FC1CEE2A89580300B4A166 /* thunder.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = thunder.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +135,13 @@
 		031049772A80029A00288D4F /* WeatherAR */ = {
 			isa = PBXGroup;
 			children = (
+				03FC1CD92A89527D00B4A166 /* videos */,
+				03FC1CD32A89424200B4A166 /* Models */,
+				03FC1CC22A88A58500B4A166 /* WeatherNetworkManager.swift */,
 				031049782A80029A00288D4F /* WeatherARApp.swift */,
 				0310497A2A80029A00288D4F /* ContentView.swift */,
 				0310497C2A80029C00288D4F /* Assets.xcassets */,
+				03F568512A8414230056395D /* Info.plist */,
 				0310497E2A80029C00288D4F /* Preview Content */,
 			);
 			path = WeatherAR;
@@ -125,6 +170,46 @@
 				031049952A80029C00288D4F /* WeatherARUITestsLaunchTests.swift */,
 			);
 			path = WeatherARUITests;
+			sourceTree = "<group>";
+		};
+		03FC1CBD2A88A51F00B4A166 /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				03FC1CC62A88A59500B4A166 /* WeatherData.swift */,
+				03FC1CCB2A88A9C100B4A166 /* WeatherModel.swift */,
+			);
+			path = WeatherModel;
+			sourceTree = "<group>";
+		};
+		03FC1CD32A89424200B4A166 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03FC1CD42A8942E100B4A166 /* ARModel */,
+				03FC1CBD2A88A51F00B4A166 /* WeatherModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03FC1CD42A8942E100B4A166 /* ARModel */ = {
+			isa = PBXGroup;
+			children = (
+				037615802A85647C00A98DD5 /* ARViewController.swift */,
+				03FC1CD52A89435300B4A166 /* WeatherARModelManager.swift */,
+			);
+			path = ARModel;
+			sourceTree = "<group>";
+		};
+		03FC1CD92A89527D00B4A166 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				03FC1CDA2A89579100B4A166 /* fog.mp4 */,
+				03FC1CE62A8957EF00B4A166 /* snow.mp4 */,
+				03FC1CEA2A8957FA00B4A166 /* sunny.mp4 */,
+				03FC1CE22A8957D700B4A166 /* rainy.mp4 */,
+				03FC1CEE2A89580300B4A166 /* thunder.mp4 */,
+				03FC1CDE2A8957AF00B4A166 /* normal.mp4 */,
+			);
+			path = videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +276,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					031049742A80029A00288D4F = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -231,8 +316,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FC1CDB2A89579100B4A166 /* fog.mp4 in Resources */,
 				031049802A80029C00288D4F /* Preview Assets.xcassets in Resources */,
+				03FC1CDF2A8957AF00B4A166 /* normal.mp4 in Resources */,
 				0310497D2A80029C00288D4F /* Assets.xcassets in Resources */,
+				03FC1CEF2A89580300B4A166 /* thunder.mp4 in Resources */,
+				03FC1CE72A8957EF00B4A166 /* snow.mp4 in Resources */,
+				03FC1CE32A8957D700B4A166 /* rainy.mp4 in Resources */,
+				03FC1CEB2A8957FA00B4A166 /* sunny.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +331,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FC1CEC2A8957FA00B4A166 /* sunny.mp4 in Resources */,
+				03FC1CE02A8957AF00B4A166 /* normal.mp4 in Resources */,
+				03FC1CF02A89580300B4A166 /* thunder.mp4 in Resources */,
+				03FC1CE42A8957D700B4A166 /* rainy.mp4 in Resources */,
+				03FC1CE82A8957EF00B4A166 /* snow.mp4 in Resources */,
+				03FC1CDC2A89579100B4A166 /* fog.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +344,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FC1CED2A8957FA00B4A166 /* sunny.mp4 in Resources */,
+				03FC1CE12A8957AF00B4A166 /* normal.mp4 in Resources */,
+				03FC1CF12A89580300B4A166 /* thunder.mp4 in Resources */,
+				03FC1CE52A8957D700B4A166 /* rainy.mp4 in Resources */,
+				03FC1CE92A8957EF00B4A166 /* snow.mp4 in Resources */,
+				03FC1CDD2A89579100B4A166 /* fog.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +361,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0310497B2A80029A00288D4F /* ContentView.swift in Sources */,
+				03FC1CC72A88A59500B4A166 /* WeatherData.swift in Sources */,
+				037615812A85647C00A98DD5 /* ARViewController.swift in Sources */,
+				03FC1CCF2A88AC6B00B4A166 /* WeatherNetworkManager.swift in Sources */,
 				031049792A80029A00288D4F /* WeatherARApp.swift in Sources */,
+				03FC1CCC2A88A9C100B4A166 /* WeatherModel.swift in Sources */,
+				03FC1CD62A89435300B4A166 /* WeatherARModelManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +375,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0310498A2A80029C00288D4F /* WeatherARTests.swift in Sources */,
+				03FC1CD72A89435300B4A166 /* WeatherARModelManager.swift in Sources */,
+				03FC1CCD2A88A9C100B4A166 /* WeatherModel.swift in Sources */,
+				03FC1CC82A88A59500B4A166 /* WeatherData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +386,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				031049962A80029C00288D4F /* WeatherARUITestsLaunchTests.swift in Sources */,
+				03FC1CC92A88A59500B4A166 /* WeatherData.swift in Sources */,
+				03FC1CD82A89435300B4A166 /* WeatherARModelManager.swift in Sources */,
 				031049942A80029C00288D4F /* WeatherARUITests.swift in Sources */,
+				03FC1CCE2A88A9C100B4A166 /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -331,6 +446,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -359,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -391,6 +508,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -417,13 +535,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherAR/Preview Content\"";
+				DEVELOPMENT_TEAM = NAC69WF42M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,13 +566,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherAR/Preview Content\"";
+				DEVELOPMENT_TEAM = NAC69WF42M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,8 +596,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAC69WF42M;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanjit.WeatherARTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,8 +616,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAC69WF42M;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanjit.WeatherARTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,7 +635,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAC69WF42M;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanjit.WeatherARUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,7 +654,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAC69WF42M;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanjit.WeatherARUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
